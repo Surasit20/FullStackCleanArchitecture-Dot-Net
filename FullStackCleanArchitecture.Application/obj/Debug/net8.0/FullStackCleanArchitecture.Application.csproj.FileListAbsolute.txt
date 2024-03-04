@@ -1,0 +1,17 @@
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\bin\Debug\net8.0\FullStackCleanArchitecture.Application.deps.json
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\bin\Debug\net8.0\FullStackCleanArchitecture.Application.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\bin\Debug\net8.0\FullStackCleanArchitecture.Application.pdb
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\bin\Debug\net8.0\FullStackCleanArchitecture.Domain.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\bin\Debug\net8.0\FullStackCleanArchitecture.Domain.pdb
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\obj\Debug\net8.0\FullStackCleanArchitecture.Application.csproj.AssemblyReference.cache
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\obj\Debug\net8.0\FullStackCleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\obj\Debug\net8.0\FullStackCleanArchitecture.Application.AssemblyInfoInputs.cache
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\obj\Debug\net8.0\FullStackCleanArchitecture.Application.AssemblyInfo.cs
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\obj\Debug\net8.0\FullStackCleanArchitecture.Application.csproj.CoreCompileInputs.cache
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\obj\Debug\net8.0\FullStackCleanArchitecture.Application.csproj.CopyComplete
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\obj\Debug\net8.0\FullStackCleanArchitecture.Application.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\obj\Debug\net8.0\refint\FullStackCleanArchitecture.Application.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\obj\Debug\net8.0\FullStackCleanArchitecture.Application.pdb
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\obj\Debug\net8.0\ref\FullStackCleanArchitecture.Application.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\bin\Debug\net8.0\FullStackCleanArchitecture.Shared.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Application\bin\Debug\net8.0\FullStackCleanArchitecture.Shared.pdb

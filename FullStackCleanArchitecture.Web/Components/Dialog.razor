@@ -1,0 +1,100 @@
+﻿@using FullStackCleanArchitecture.Web.Managers.Employee
+@inject IEmployeeManger EmployeeManger
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Employee</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" @onsubmit="OnSave" @formname="saveEmployee">
+                    <AntiforgeryToken />
+                    <div class="mb-3">
+                        <label for="employeeFirstName" class="form-label">FirstName</label>
+                        <InputText type="text" class="form-control" id="employeeFirstName" @bind-Value="employeeSaveDto.FirstName" />
+                      @*   <input type="text" class="form-control" id="employeeFirstName" @bind-value="@employeeSaveDto.FirstName"> *@
+                    </div>
+                    <div class="mb-3">
+                        <label for="employeeLastName" class="form-label">LastName</label>
+                        <InputText type="text" class="form-control" id="employeeLastName"  @bind-Value="employeeSaveDto.LastName" />
+                        @*  <input type="text" class="form-control" id="employeeLastName" @bind-value="@employeeSaveDto.LastName"> *@
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-success">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+    [Parameter]
+    public int EmployeeId { get; set; }
+    [Parameter]
+    public EventCallback OnLoadData { get; set; }
+    [SupplyParameterFromForm]
+    public EmployeeSaveDto employeeSaveDto { get; set; } = new EmployeeSaveDto();
+
+    //variable
+    private bool isSaveMode { get; set; } = true;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (EmployeeId != 0 && EmployeeId != null)
+        {
+            isSaveMode = false;
+
+            try
+            {
+                var res = await EmployeeManger.GetAsync(EmployeeId);
+                if (res.Succeeded == true)
+                {
+                    var data = res.Result;
+                    employeeSaveDto.EmployeeId = data?.EmployeeId ?? 0;
+                    employeeSaveDto.FirstName = data?.FirstName;
+                    employeeSaveDto.LastName = data?.LastName;
+                }
+
+            }
+            catch (Exception ex)
+            {
+            }
+
+        }
+
+        await Task.FromResult(0);
+    }
+    private async Task OnSave()
+    {
+        try
+        {
+            if (isSaveMode == true)
+            {
+                var res = await EmployeeManger.SaveAsync(employeeSaveDto);
+                if (res.Succeeded == true)
+                {
+                    await OnLoadData.InvokeAsync();
+                }
+            }
+            else
+            {
+                var res = await EmployeeManger.PatchAsync(employeeSaveDto.EmployeeId,employeeSaveDto);
+                if (res.Succeeded == true)
+                {
+                    await OnLoadData.InvokeAsync();
+                }
+            }
+
+            employeeSaveDto = new EmployeeSaveDto();
+            await Task.FromResult(0);
+
+        }
+        catch (Exception ex)
+        {
+
+        }
+    }
+}

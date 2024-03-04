@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "A1mc5+Sh2gebRGpIS3tut65hrkkHvbZCv7Nkyt0dXbYD7KxS9kcNjY1GYH4m6lZn1otUQZHxPNzFg148MbP5kw==",
+  "success": true,
+  "projectFilePath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Domain\\FullStackCleanArchitecture.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BlackPinker\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\BlackPinker\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\BlackPinker\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

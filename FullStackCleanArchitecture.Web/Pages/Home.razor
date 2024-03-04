@@ -1,0 +1,46 @@
+﻿@using FullStackCleanArchitecture.Web.Components
+@using FullStackCleanArchitecture.Web.Managers.Employee
+@using Microsoft.AspNetCore.Components.Web
+@page "/"
+@inject IEmployeeManger EmployeeManger
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+   Add Employee
+</button>
+
+<DataGrid OnEditCallback="@OnEdit" DataSource="listEmployeeDto"></DataGrid>
+<Dialog OnLoadData="OnLoadData" EmployeeId=key></Dialog>
+
+@code{
+    private IEnumerable<EmployeeDto> listEmployeeDto;
+    private int key { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await OnLoadData();
+        }
+        catch(Exception ex)
+        {
+
+        }
+    }
+
+    private async Task OnLoadData()
+    {
+        var res = await EmployeeManger.GetAllAsync();
+
+        if (res.Succeeded == true)
+        {
+            listEmployeeDto = res.Result.ToList();
+            StateHasChanged();
+        }
+    }
+
+    public async Task OnEdit(int _key)
+    {
+        key = _key;
+    }
+
+}

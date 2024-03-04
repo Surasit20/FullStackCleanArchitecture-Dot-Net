@@ -1,0 +1,380 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.API\\FullStackCleanArchitecture.API.csproj": {}
+  },
+  "projects": {
+    "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.API\\FullStackCleanArchitecture.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.API\\FullStackCleanArchitecture.API.csproj",
+        "projectName": "FullStackCleanArchitecture.API",
+        "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.API\\FullStackCleanArchitecture.API.csproj",
+        "packagesPath": "C:\\Users\\BlackPinker\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BlackPinker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Application\\FullStackCleanArchitecture.Application.csproj": {
+                "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Application\\FullStackCleanArchitecture.Application.csproj"
+              },
+              "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Infrastructure\\FullStackCleanArchitecture.Infrastructure.csproj": {
+                "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Infrastructure\\FullStackCleanArchitecture.Infrastructure.csproj"
+              },
+              "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Shared\\FullStackCleanArchitecture.Shared.csproj": {
+                "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Shared\\FullStackCleanArchitecture.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Application\\FullStackCleanArchitecture.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Application\\FullStackCleanArchitecture.Application.csproj",
+        "projectName": "FullStackCleanArchitecture.Application",
+        "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Application\\FullStackCleanArchitecture.Application.csproj",
+        "packagesPath": "C:\\Users\\BlackPinker\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BlackPinker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Domain\\FullStackCleanArchitecture.Domain.csproj": {
+                "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Domain\\FullStackCleanArchitecture.Domain.csproj"
+              },
+              "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Shared\\FullStackCleanArchitecture.Shared.csproj": {
+                "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Shared\\FullStackCleanArchitecture.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Domain\\FullStackCleanArchitecture.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Domain\\FullStackCleanArchitecture.Domain.csproj",
+        "projectName": "FullStackCleanArchitecture.Domain",
+        "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Domain\\FullStackCleanArchitecture.Domain.csproj",
+        "packagesPath": "C:\\Users\\BlackPinker\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BlackPinker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Infrastructure\\FullStackCleanArchitecture.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Infrastructure\\FullStackCleanArchitecture.Infrastructure.csproj",
+        "projectName": "FullStackCleanArchitecture.Infrastructure",
+        "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Infrastructure\\FullStackCleanArchitecture.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\BlackPinker\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BlackPinker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Application\\FullStackCleanArchitecture.Application.csproj": {
+                "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Application\\FullStackCleanArchitecture.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Shared\\FullStackCleanArchitecture.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Shared\\FullStackCleanArchitecture.Shared.csproj",
+        "projectName": "FullStackCleanArchitecture.Shared",
+        "projectPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Shared\\FullStackCleanArchitecture.Shared.csproj",
+        "packagesPath": "C:\\Users\\BlackPinker\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BlackPinker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
