@@ -6,6 +6,7 @@ D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Domain\obj\D
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Domain\obj\Debug\net8.0\FullStackCleanArchitecture.Domain.AssemblyInfoInputs.cache
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Domain\obj\Debug\net8.0\FullStackCleanArchitecture.Domain.AssemblyInfo.cs
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Domain\obj\Debug\net8.0\FullStackCleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Domain\obj\Debug\net8.0\FullStackCleanArchitecture.Domain.sourcelink.json
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Domain\obj\Debug\net8.0\FullStackCleanArchitecture.Domain.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Domain\obj\Debug\net8.0\refint\FullStackCleanArchitecture.Domain.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Domain\obj\Debug\net8.0\FullStackCleanArchitecture.Domain.pdb

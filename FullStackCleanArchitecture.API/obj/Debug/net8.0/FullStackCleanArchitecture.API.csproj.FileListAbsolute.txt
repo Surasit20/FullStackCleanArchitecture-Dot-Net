@@ -12,6 +12,9 @@ D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debu
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Humanizer.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\MediatR.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -24,6 +27,9 @@ D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debu
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -120,8 +126,10 @@ D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debu
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\FullStackCleanArchitecture.Application.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\FullStackCleanArchitecture.Domain.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\FullStackCleanArchitecture.Infrastructure.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\FullStackCleanArchitecture.Shared.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\FullStackCleanArchitecture.Application.pdb
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\FullStackCleanArchitecture.Infrastructure.pdb
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\FullStackCleanArchitecture.Shared.pdb
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\FullStackCleanArchitecture.Domain.pdb
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\FullStackCleanArchitecture.API.csproj.AssemblyReference.cache
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\FullStackCleanArchitecture.API.GeneratedMSBuildEditorConfig.editorconfig
@@ -130,6 +138,7 @@ D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debu
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\FullStackCleanArchitecture.API.csproj.CoreCompileInputs.cache
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\FullStackCleanArchitecture.API.MvcApplicationPartsAssemblyInfo.cs
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\FullStackCleanArchitecture.API.MvcApplicationPartsAssemblyInfo.cache
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\FullStackCleanArchitecture.API.sourcelink.json
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\staticwebassets.build.json
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\staticwebassets.development.json
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\staticwebassets\msbuild.FullStackCleanArchitecture.API.Microsoft.AspNetCore.StaticWebAssets.props
@@ -144,11 +153,3 @@ D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debu
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\FullStackCleanArchitecture.API.pdb
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\FullStackCleanArchitecture.API.genruntimeconfig.cache
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\obj\Debug\net8.0\ref\FullStackCleanArchitecture.API.dll
-D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\FullStackCleanArchitecture.Shared.dll
-D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.API\bin\Debug\net8.0\FullStackCleanArchitecture.Shared.pdb

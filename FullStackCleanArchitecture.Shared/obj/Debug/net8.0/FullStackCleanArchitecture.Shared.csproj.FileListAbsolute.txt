@@ -5,6 +5,7 @@ D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Shared\obj\D
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Shared\obj\Debug\net8.0\FullStackCleanArchitecture.Shared.AssemblyInfoInputs.cache
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Shared\obj\Debug\net8.0\FullStackCleanArchitecture.Shared.AssemblyInfo.cs
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Shared\obj\Debug\net8.0\FullStackCleanArchitecture.Shared.csproj.CoreCompileInputs.cache
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Shared\obj\Debug\net8.0\FullStackCleanArchitecture.Shared.sourcelink.json
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Shared\obj\Debug\net8.0\FullStackCleanArchitecture.Shared.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Shared\obj\Debug\net8.0\refint\FullStackCleanArchitecture.Shared.dll
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Shared\obj\Debug\net8.0\FullStackCleanArchitecture.Shared.pdb

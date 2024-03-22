@@ -35,3 +35,4 @@ D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Web\obj\Debu
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Web\obj\Debug\net8.0\FullStackCleanArchitecture.Web.pdb
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Web\obj\Debug\net8.0\FullStackCleanArchitecture.Web.genruntimeconfig.cache
 D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Web\obj\Debug\net8.0\ref\FullStackCleanArchitecture.Web.dll
+D:\MyProjects\FullStackCleanArchitecture\FullStackCleanArchitecture.Web\obj\Debug\net8.0\FullStackCleanArchitecture.Web.sourcelink.json

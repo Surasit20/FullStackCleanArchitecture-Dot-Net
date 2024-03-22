@@ -1,0 +1,7 @@
+{
+  "FullStackCleanArchitecture.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.API",
+  "FullStackCleanArchitecture.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Application",
+  "FullStackCleanArchitecture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Domain",
+  "FullStackCleanArchitecture.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Infrastructure",
+  "FullStackCleanArchitecture.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\MyProjects\\FullStackCleanArchitecture\\FullStackCleanArchitecture.Shared"
+}
